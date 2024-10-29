@@ -1,0 +1,800 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.glance:glance:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/7df824a368fd2bdc92f826657a7c6c51/transformed/glance-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.glance:glance-material3:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/fea8ad39a3023b7e6a4c1def03d55620/transformed/glance-material3-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:17:1-56:12
+MERGED from [io.coil-kt:coil-svg:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/3243607682a1a8327c7689f0e3e0a23d/transformed/coil-svg-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/58fce6ab4c170f49d1737e4f4ffa49c6/transformed/play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/bd34347ba7d72af9685ddd42b928a3d3/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/291334e23328e38905b80903bbded285/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-pager-indicators:0.27.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/777a9e384bb673c86025f756eaa25d2e/transformed/accompanist-pager-indicators-0.27.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-pager:0.27.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/f78fbe7e3a2b392963fddb04d71fde19/transformed/accompanist-pager-0.27.1/AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-compose:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/a11e33b5a2bb50b18350dc7833b83c16/transformed/coil-compose-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-compose-base:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/03c09ecbcbfccb1535dd37506b959e0f/transformed/coil-compose-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [dev.chrisbanes.snapper:snapper:0.2.2] /media/bobo/learn/Android/Gradle/caches/transforms-4/84e2d85043235c19883c7d898e9a017a/transformed/snapper-0.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/c368327737b8d9345a39c9df9d698e16/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/b0eafe342db812b1b7c10d6c6141cef5/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1f41a8d1dc1e4034f4578f522138d70f/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/d76c6434da7954d558431048271b1c65/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5947376a4d950e78e1e73fbeafb320ea/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/f2f3f79a7bcdf6e869a2f6508c93a134/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/0899b925e3826edc0399d7483643eec6/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5762b70284e9c3cd44b7615d98bbaa77/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/75c40a43fe1f11a3c459c691536904f9/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/9f701d265aa44a265c41275af515b52b/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/17b178b4194acbc83ddf63ca2833821d/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/a3920db91fdf59db785b0ba47ed291ad/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/7d0f8d9f8e3e2027a5795c59e05fa288/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/66e7271ea28dfd57f49bc5da818784c8/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.25.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/63d6e3f7809c755da0d82d41174661a2/transformed/accompanist-drawablepainter-0.25.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/2dc338d8b9c65435ea26927105739a07/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2e98a843c3fd421b2d693c23b27ad936/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/15f3bd614244a5f3224ad78a075f4ec5/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8a4d379a480b456bef7dbd78974baa94/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/9f87051af636cb328c2647a80fb34ee4/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/beef06862f1caa42c83adaa7f2e3556c/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [io.coil-kt:coil:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f76614909a411f1a03271d44f8b46917/transformed/coil-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b798273a515eb5d72e684d855e8529b5/transformed/coil-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/4a2c1e42d3ba7dc671e3181c42a1d51f/transformed/appcompat-resources-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/5715c383ea949cc9298fc8a2e2baae99/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/089a1c065bc4fbbcbec75567b4a0c145/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0dff0f291ae030fb3c5cb9457968ae8c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/ad87656593434248dae1a6839961a7cb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8844a5b2aa97691d719cc4643b8ef855/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/fadc159b6dd24602d0794d20a87457b1/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/23886b2601e14063b1891ba2f2833283/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/3cb41a887fb9b8f8d39f75025868ac73/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/7856d2f3e3b1f07ccdf14ba7093aeb6b/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/9ab863c867954bdc8a2c564706c0f000/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/31a287e42f3a84a1dd89e695f9196836/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/92d53dfbb883977538ea2e18f08d8f30/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/31ef270fc46e9692b5dbbf32afb483a8/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f5e58f597bbddc07ea8653e2024cf5e9/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/e98414c09e999ea11675963c9f20892a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/22d23dac097fe035de7fe8f49d374f25/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/75ab5fce3ac4e3527538144d9aa6bc19/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/6214d4a6fc2aa0af190e9b7e14a042a5/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/30576fcb2bf65dbe21eb36e247120e44/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c7620f54283775034c83036da46f0e9b/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/22dd3966d06abe617913fb80b68c4326/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f0954c5ce6511a50646454f6eab7b154/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/3c02db30bdb214a6bb92d9976f7ffd27/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/ae8eef7a50697794cd4a1abb5acc3cf0/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/fed7c05b0c8fb198df7446e5601de63f/transformed/napier-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/b4cce5f808d4515ced5f4d8134312cd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/46f9820c3281aceba460ef723620ecc3/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/a3070e5812b0cde329a820b75a12bf4b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8bb2345a6b928ea9c35fbb7021120895/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /media/bobo/learn/Android/Gradle/caches/transforms-4/cbd4788b3bd737f7560a70ae7e9a50df/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/4ad485a6dac5cc240c411d4f286f122d/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2e3a12aca6960e5b2e1664dd25530f32/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2f1defdd8d7d057c9ccb4ec0488303fb/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/fb721e5bb02ae6d00cdbb98c2bd7d674/transformed/volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.caverock:androidsvg-aar:1.4] /media/bobo/learn/Android/Gradle/caches/transforms-4/395b01152240e0d46319b6c7e5afbacd/transformed/androidsvg-aar-1.4/AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:10:5-11:45
+	tools:ignore
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:11:9-42
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:13:22-74
+application
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:15:5-50:19
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:15:5-50:19
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:22:5-54:19
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:22:5-54:19
+MERGED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:23:5-28:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/58fce6ab4c170f49d1737e4f4ffa49c6/transformed/play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/58fce6ab4c170f49d1737e4f4ffa49c6/transformed/play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/bd34347ba7d72af9685ddd42b928a3d3/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/bd34347ba7d72af9685ddd42b928a3d3/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/b4cce5f808d4515ced5f4d8134312cd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/b4cce5f808d4515ced5f4d8134312cd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:20:9-41
+	android:fullBackupContent
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:18:9-54
+	tools:ignore
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:25:9-51
+	android:roundIcon
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:21:9-54
+	tools:targetApi
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:24:9-29
+	android:icon
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:23:9-52
+	android:dataExtractionRules
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:17:9-65
+activity#com.example.weathercompose.MainActivity
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:26:9-38:20
+	android:screenOrientation
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:28:13-36
+	android:configChanges
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:31:13-48
+	android:theme
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:27:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:36:27-74
+receiver#com.example.weathercompose.ui.widget.WeatherWidgetReceiver
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:39:9-48:20
+	android:exported
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:40:13-60
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:42:13-44:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:43:17-84
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:43:25-81
+meta-data#android.appwidget.provider
+ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:45:13-47:62
+	android:resource
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:47:17-59
+	android:name
+		ADDED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml:46:17-58
+uses-sdk
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+MERGED from [androidx.glance:glance:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/7df824a368fd2bdc92f826657a7c6c51/transformed/glance-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/7df824a368fd2bdc92f826657a7c6c51/transformed/glance-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-material3:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/fea8ad39a3023b7e6a4c1def03d55620/transformed/glance-material3-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-material3:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/fea8ad39a3023b7e6a4c1def03d55620/transformed/glance-material3-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-svg:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/3243607682a1a8327c7689f0e3e0a23d/transformed/coil-svg-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-svg:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/3243607682a1a8327c7689f0e3e0a23d/transformed/coil-svg-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/58fce6ab4c170f49d1737e4f4ffa49c6/transformed/play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/58fce6ab4c170f49d1737e4f4ffa49c6/transformed/play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/bd34347ba7d72af9685ddd42b928a3d3/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/bd34347ba7d72af9685ddd42b928a3d3/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/291334e23328e38905b80903bbded285/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/291334e23328e38905b80903bbded285/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-pager-indicators:0.27.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/777a9e384bb673c86025f756eaa25d2e/transformed/accompanist-pager-indicators-0.27.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-pager-indicators:0.27.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/777a9e384bb673c86025f756eaa25d2e/transformed/accompanist-pager-indicators-0.27.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-pager:0.27.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/f78fbe7e3a2b392963fddb04d71fde19/transformed/accompanist-pager-0.27.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-pager:0.27.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/f78fbe7e3a2b392963fddb04d71fde19/transformed/accompanist-pager-0.27.1/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/a11e33b5a2bb50b18350dc7833b83c16/transformed/coil-compose-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/a11e33b5a2bb50b18350dc7833b83c16/transformed/coil-compose-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose-base:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/03c09ecbcbfccb1535dd37506b959e0f/transformed/coil-compose-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose-base:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/03c09ecbcbfccb1535dd37506b959e0f/transformed/coil-compose-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [dev.chrisbanes.snapper:snapper:0.2.2] /media/bobo/learn/Android/Gradle/caches/transforms-4/84e2d85043235c19883c7d898e9a017a/transformed/snapper-0.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [dev.chrisbanes.snapper:snapper:0.2.2] /media/bobo/learn/Android/Gradle/caches/transforms-4/84e2d85043235c19883c7d898e9a017a/transformed/snapper-0.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/c368327737b8d9345a39c9df9d698e16/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/c368327737b8d9345a39c9df9d698e16/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/b0eafe342db812b1b7c10d6c6141cef5/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/b0eafe342db812b1b7c10d6c6141cef5/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1f41a8d1dc1e4034f4578f522138d70f/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1f41a8d1dc1e4034f4578f522138d70f/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/d76c6434da7954d558431048271b1c65/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/d76c6434da7954d558431048271b1c65/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5947376a4d950e78e1e73fbeafb320ea/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5947376a4d950e78e1e73fbeafb320ea/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/f2f3f79a7bcdf6e869a2f6508c93a134/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/f2f3f79a7bcdf6e869a2f6508c93a134/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/0899b925e3826edc0399d7483643eec6/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/0899b925e3826edc0399d7483643eec6/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5762b70284e9c3cd44b7615d98bbaa77/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5762b70284e9c3cd44b7615d98bbaa77/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/75c40a43fe1f11a3c459c691536904f9/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/75c40a43fe1f11a3c459c691536904f9/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/9f701d265aa44a265c41275af515b52b/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/9f701d265aa44a265c41275af515b52b/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/17b178b4194acbc83ddf63ca2833821d/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/17b178b4194acbc83ddf63ca2833821d/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/a3920db91fdf59db785b0ba47ed291ad/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/a3920db91fdf59db785b0ba47ed291ad/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/7d0f8d9f8e3e2027a5795c59e05fa288/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/7d0f8d9f8e3e2027a5795c59e05fa288/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/66e7271ea28dfd57f49bc5da818784c8/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/66e7271ea28dfd57f49bc5da818784c8/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.25.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/63d6e3f7809c755da0d82d41174661a2/transformed/accompanist-drawablepainter-0.25.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.25.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/63d6e3f7809c755da0d82d41174661a2/transformed/accompanist-drawablepainter-0.25.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/2dc338d8b9c65435ea26927105739a07/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/2dc338d8b9c65435ea26927105739a07/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2e98a843c3fd421b2d693c23b27ad936/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2e98a843c3fd421b2d693c23b27ad936/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/15f3bd614244a5f3224ad78a075f4ec5/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/15f3bd614244a5f3224ad78a075f4ec5/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8a4d379a480b456bef7dbd78974baa94/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8a4d379a480b456bef7dbd78974baa94/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/9f87051af636cb328c2647a80fb34ee4/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/9f87051af636cb328c2647a80fb34ee4/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/beef06862f1caa42c83adaa7f2e3556c/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/beef06862f1caa42c83adaa7f2e3556c/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [io.coil-kt:coil:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f76614909a411f1a03271d44f8b46917/transformed/coil-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f76614909a411f1a03271d44f8b46917/transformed/coil-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b798273a515eb5d72e684d855e8529b5/transformed/coil-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b798273a515eb5d72e684d855e8529b5/transformed/coil-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/4a2c1e42d3ba7dc671e3181c42a1d51f/transformed/appcompat-resources-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/4a2c1e42d3ba7dc671e3181c42a1d51f/transformed/appcompat-resources-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/5715c383ea949cc9298fc8a2e2baae99/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/5715c383ea949cc9298fc8a2e2baae99/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/089a1c065bc4fbbcbec75567b4a0c145/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/089a1c065bc4fbbcbec75567b4a0c145/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0dff0f291ae030fb3c5cb9457968ae8c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0dff0f291ae030fb3c5cb9457968ae8c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/ad87656593434248dae1a6839961a7cb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/ad87656593434248dae1a6839961a7cb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8844a5b2aa97691d719cc4643b8ef855/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8844a5b2aa97691d719cc4643b8ef855/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/fadc159b6dd24602d0794d20a87457b1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/fadc159b6dd24602d0794d20a87457b1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/23886b2601e14063b1891ba2f2833283/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/23886b2601e14063b1891ba2f2833283/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/3cb41a887fb9b8f8d39f75025868ac73/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/3cb41a887fb9b8f8d39f75025868ac73/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/7856d2f3e3b1f07ccdf14ba7093aeb6b/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/7856d2f3e3b1f07ccdf14ba7093aeb6b/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/9ab863c867954bdc8a2c564706c0f000/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/9ab863c867954bdc8a2c564706c0f000/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/31a287e42f3a84a1dd89e695f9196836/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/31a287e42f3a84a1dd89e695f9196836/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/92d53dfbb883977538ea2e18f08d8f30/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/92d53dfbb883977538ea2e18f08d8f30/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/31ef270fc46e9692b5dbbf32afb483a8/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/31ef270fc46e9692b5dbbf32afb483a8/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f5e58f597bbddc07ea8653e2024cf5e9/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f5e58f597bbddc07ea8653e2024cf5e9/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/e98414c09e999ea11675963c9f20892a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/e98414c09e999ea11675963c9f20892a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/22d23dac097fe035de7fe8f49d374f25/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/22d23dac097fe035de7fe8f49d374f25/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/75ab5fce3ac4e3527538144d9aa6bc19/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/75ab5fce3ac4e3527538144d9aa6bc19/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/6214d4a6fc2aa0af190e9b7e14a042a5/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/6214d4a6fc2aa0af190e9b7e14a042a5/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/30576fcb2bf65dbe21eb36e247120e44/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/30576fcb2bf65dbe21eb36e247120e44/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c7620f54283775034c83036da46f0e9b/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c7620f54283775034c83036da46f0e9b/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/22dd3966d06abe617913fb80b68c4326/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/22dd3966d06abe617913fb80b68c4326/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f0954c5ce6511a50646454f6eab7b154/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/f0954c5ce6511a50646454f6eab7b154/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/3c02db30bdb214a6bb92d9976f7ffd27/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/3c02db30bdb214a6bb92d9976f7ffd27/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/ae8eef7a50697794cd4a1abb5acc3cf0/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/ae8eef7a50697794cd4a1abb5acc3cf0/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/fed7c05b0c8fb198df7446e5601de63f/transformed/napier-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/fed7c05b0c8fb198df7446e5601de63f/transformed/napier-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/b4cce5f808d4515ced5f4d8134312cd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/b4cce5f808d4515ced5f4d8134312cd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/46f9820c3281aceba460ef723620ecc3/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/46f9820c3281aceba460ef723620ecc3/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/a3070e5812b0cde329a820b75a12bf4b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/a3070e5812b0cde329a820b75a12bf4b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8bb2345a6b928ea9c35fbb7021120895/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/8bb2345a6b928ea9c35fbb7021120895/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /media/bobo/learn/Android/Gradle/caches/transforms-4/cbd4788b3bd737f7560a70ae7e9a50df/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /media/bobo/learn/Android/Gradle/caches/transforms-4/cbd4788b3bd737f7560a70ae7e9a50df/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/4ad485a6dac5cc240c411d4f286f122d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/4ad485a6dac5cc240c411d4f286f122d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2e3a12aca6960e5b2e1664dd25530f32/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2e3a12aca6960e5b2e1664dd25530f32/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2f1defdd8d7d057c9ccb4ec0488303fb/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/2f1defdd8d7d057c9ccb4ec0488303fb/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/fb721e5bb02ae6d00cdbb98c2bd7d674/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/fb721e5bb02ae6d00cdbb98c2bd7d674/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.caverock:androidsvg-aar:1.4] /media/bobo/learn/Android/Gradle/caches/transforms-4/395b01152240e0d46319b6c7e5afbacd/transformed/androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] /media/bobo/learn/Android/Gradle/caches/transforms-4/395b01152240e0d46319b6c7e5afbacd/transformed/androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/bobo/learn/Project/weatherCompose/app/src/main/AndroidManifest.xml
+activity#androidx.glance.appwidget.action.ActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:23:9-27:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:25:13-35
+	android:excludeFromRecents
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:26:13-46
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:24:13-85
+activity#androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:28:9-35:81
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:30:13-35
+	android:launchMode
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:32:13-48
+	android:noHistory
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:33:13-37
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:35:13-78
+	android:taskAffinity
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:34:13-91
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:29:13-94
+receiver#androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:37:9-40:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:38:13-92
+receiver#androidx.glance.appwidget.MyPackageReplacedReceiver
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:41:9-48:20
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:42:13-79
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:45:13-47:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:25-81
+service#androidx.glance.appwidget.GlanceRemoteViewsService
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:50:9-53:72
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:52:13-36
+	android:permission
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:51:13-78
+service#androidx.core.widget.RemoteViewsCompatService
+ADDED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:24:9-27:63
+	tools:ignore
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:27:13-60
+	android:permission
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/0b4a265c1533c576ad4af3cf21b83303/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:25:13-73
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/c9d33adda8cce6da670dc91c3eab0f7b/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/60d130dc14542c8617d2741f3ee69eff/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/1b1abca1e6d550fb1f47279fd491a0d9/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.7] /media/bobo/learn/Android/Gradle/caches/transforms-4/5d9e304f77451a3b0a1076e3ded70435/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/4e0b73b2d8f9963e28f9376e9939debe/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/e5eef3b3ff1949ea6e7b9642430924bf/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.weathercompose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.weathercompose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/1023eeace9a7ffebc94a65ffa98dc0ee/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /media/bobo/learn/Android/Gradle/caches/transforms-4/610c7a484e80cd796d4d5129dfb0a410/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /media/bobo/learn/Android/Gradle/caches/transforms-4/d13ccf514a4b20a147e4d12eca939e73/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /media/bobo/learn/Android/Gradle/caches/transforms-4/d7f9de7e663507049f054713538025f2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

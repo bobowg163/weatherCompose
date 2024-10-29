@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">三亚天气</string>
+    <string name="refresh">刷新</string>
+    <string name="search">查找</string>
+    <string name="OK">确定</string>
+    <string name="Cance">取消</string>
+    <string name="input_city_name">请输入城市名称</string>
+    <string name="preference_file_key">preference_file_key</string>
+    <string name="no_location_text">没有当前的位置</string>
+</resources>

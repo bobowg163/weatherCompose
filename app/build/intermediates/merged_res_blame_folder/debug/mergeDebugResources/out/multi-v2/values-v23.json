@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.weathercompose.app-mergeDebugResources-59:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/media/bobo/learn/Android/Gradle/caches/transforms-4/0d44484fda77a30e8cb51b8aa5e8b1fe/transformed/work-runtime-2.7.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/media/bobo/learn/Android/Gradle/caches/transforms-4/b1c5ccdd70c5d4254088bf723efd4db7/transformed/glance-appwidget-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "55",
+                        "endOffsets": "235"
+                    }
+                }
+            ]
+        }
+    ]
+}
