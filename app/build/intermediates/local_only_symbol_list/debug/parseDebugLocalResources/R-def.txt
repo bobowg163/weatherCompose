@@ -11,6 +11,7 @@ drawable baseline_cancel
 drawable baseline_location
 drawable cloudy_bg
 drawable duyun
+drawable duyuns
 drawable haze_bg
 drawable ic_launcher_background
 drawable ic_launcher_foreground

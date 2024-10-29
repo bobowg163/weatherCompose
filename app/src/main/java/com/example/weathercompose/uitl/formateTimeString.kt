@@ -50,7 +50,7 @@ fun logCard(coil: String): Int {
             return when (i) {
                 WeatherIcon.sun -> R.drawable.sun_bg
                 WeatherIcon.partly_cloudy -> R.drawable.duyun
-                WeatherIcon.partly_cloudys -> R.drawable.duyun
+                WeatherIcon.partly_cloudys -> R.drawable.duyuns
                 WeatherIcon.Suns -> R.drawable.sunny_bg
                 WeatherIcon.rain_and_snow_weather -> R.drawable.rain_bg
                 WeatherIcon.fog -> R.drawable.duyun
