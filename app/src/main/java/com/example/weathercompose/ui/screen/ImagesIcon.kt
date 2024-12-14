@@ -44,7 +44,9 @@ import com.example.weathercompose.ui.theme.Pink80
  */
 
 @Composable
-fun WeatherSelectIcon(icon: String) {
+fun WeatherSelectIcon(icon: String, animation: Boolean = false) {
+
+    //动画
     val infiniteTransition = rememberInfiniteTransition(label = "动画")
     val modifier = if (icon == "100") {
         val rotate by infiniteTransition.animateFloat(
@@ -70,6 +72,7 @@ fun WeatherSelectIcon(icon: String) {
         )
         Modifier.offset(x = offsetX)
     }
+
     val svgLink = "https://icons.qweather.com/assets/icons/${icon}.svg"
     val context = LocalContext.current
     val imageLoader = ImageRequest.Builder(context)
@@ -77,15 +80,32 @@ fun WeatherSelectIcon(icon: String) {
         .crossfade(true)
         .decoderFactory(SvgDecoder.Factory())
         .build()
-    AsyncImage(
-        model = imageLoader,
-        contentDescription = null,
-        modifier = modifier
-            .size(35.dp)
-            .padding(top = 3.dp, end = 8.dp),
-        filterQuality = DefaultFilterQuality,
-        colorFilter = ColorFilter.tint(Pink80),
-    )
+    when (animation) {
+        true -> {
+            AsyncImage(
+                model = imageLoader,
+                contentDescription = null,
+                modifier = modifier
+                    .size(35.dp)
+                    .padding(top = 3.dp, end = 8.dp),
+                filterQuality = DefaultFilterQuality,
+                colorFilter = ColorFilter.tint(Pink80),
+            )
+
+        }
+
+        false -> {
+            AsyncImage(
+                model = imageLoader,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(35.dp)
+                    .padding(top = 3.dp, end = 8.dp),
+                filterQuality = DefaultFilterQuality,
+                colorFilter = ColorFilter.tint(Pink80),
+            )
+        }
+    }
 }
 
 @Composable

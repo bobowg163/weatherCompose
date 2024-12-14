@@ -64,7 +64,6 @@ fun MainCard(
     onClickSearch: () -> Unit,
     title: String = ""
 ) {
-
     Column(
         modifier = Modifier
             .padding(5.dp),
@@ -120,8 +119,8 @@ fun MainCard(
                                 ),
                                 color = Color.White
                             )
-                            WeatherSelectIcon(nowList.value.icon)
 
+                            WeatherSelectIcon(nowList.value.icon,animation = true)
                         }
                         Text(
                             text = title.ifEmpty { "三亚" },
@@ -297,8 +296,8 @@ private fun MainCardPreview() {
                     "2024-05-12 12:00",
                     "19",
                     "25",
-                    "499",
-                    "小雨", "", "", "", "", "", "",
+                    "100",
+                    "晴", "", "", "", "", "", "",
                     "", "", "", ""
                 )
             )
