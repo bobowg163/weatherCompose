@@ -15,11 +15,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import com.example.weathercompose.data.DailyIndex
 import com.example.weathercompose.data.daily
 import com.example.weathercompose.data.get24HourlyData
 import com.example.weathercompose.data.get7DaysData
 import com.example.weathercompose.data.getCityData
 import com.example.weathercompose.data.getNowData
+import com.example.weathercompose.data.getWeatherIndex
 import com.example.weathercompose.data.hourly
 import com.example.weathercompose.data.location
 import com.example.weathercompose.data.now
@@ -90,7 +92,7 @@ class MainActivity : ComponentActivity() {
                     mutableStateOf(location("", "", "", ""))
                 }
                 val dialogState = remember { mutableStateOf(false) }
-
+                val weatherIndex = remember { mutableStateOf(listOf<DailyIndex>()) }
                 if (dialogState.value) {
                     DialogSearch(dialogState, onSubmit = {
                         getCityData(it, this, citylist)
@@ -141,7 +143,7 @@ class MainActivity : ComponentActivity() {
                         dialogState.value = true
                     }, title = citylist.value.name
                     )
-                    TabLayout(daysList, hourlyList)
+                    TabLayout(weatherIndex, daysList, hourlyList)
                 }
             }
         }

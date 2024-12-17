@@ -43,6 +43,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.weathercompose.R
+import com.example.weathercompose.data.DailyIndex
 import com.example.weathercompose.data.daily
 import com.example.weathercompose.data.hourly
 import com.example.weathercompose.data.now
@@ -78,7 +79,7 @@ fun MainCard(
             shape = RoundedCornerShape(10.dp)
         ) {
             Box(modifier = Modifier.height(320.dp)) {
-                if (nowList.value.text!=""){
+                if (nowList.value.text != "") {
                     ImageCard(text = nowList.value.icon)
                 }
                 //拉渐变
@@ -120,7 +121,7 @@ fun MainCard(
                                 color = Color.White
                             )
 
-                            WeatherSelectIcon(nowList.value.icon,animation = true)
+                            WeatherSelectIcon(nowList.value.icon, animation = true)
                         }
                         Text(
                             text = title.ifEmpty { "三亚" },
@@ -209,10 +210,11 @@ fun MainCard(
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun TabLayout(
+    getDailyIndexList: MutableState<List<DailyIndex>>,
     daysList: MutableState<List<daily>>,
     hourlyList: MutableState<List<hourly>>,
 ) {
-    val tabList = listOf("24小时", "7天")
+    val tabList = listOf( "24小时", "7天","天气指数")
     val pageState = rememberPagerState()
     val tabIndex = pageState.currentPage
     val coroutineScope = rememberCoroutineScope()
@@ -271,6 +273,16 @@ fun TabLayout(
                     }
                 }
 
+                2 -> {
+                    LazyColumn(modifier = Modifier.fillMaxSize()) {
+                        itemsIndexed(
+                            getDailyIndexList.value
+                        ) { _, item ->
+                            getDailyIndexItem(item)
+                        }
+                    }
+                }
+
                 else -> {
                     LazyColumn(modifier = Modifier.fillMaxSize()) {
                         itemsIndexed(
@@ -285,6 +297,7 @@ fun TabLayout(
         }
     }
 }
+
 
 @Preview
 @Composable
@@ -359,6 +372,32 @@ private fun TabLayoutPreview() {
                 )
             )
         }
-        TabLayout(daysList = daysList, hourlyList = hourlyList)
+        val getDailyIndexList = remember {
+            mutableStateOf(
+                listOf(
+                    DailyIndex(
+                        "较不宜",
+                        "2014-12-15",
+                        "运动指数",
+                        "天气较好，但考虑天气寒冷，推荐您进行室内运动，户外运动时请注意保暖并做好准备活动",
+                        "3",
+                        "1"
+                    ),
+                    DailyIndex(
+                        "较不宜",
+                        "2014-12-15",
+                        "运动指数",
+                        "天气较好，但考虑天气寒冷，推荐您进行室内运动，户外运动时请注意保暖并做好准备活动",
+                        "3",
+                        "2"
+                    )
+                )
+            )
+        }
+        TabLayout(
+            getDailyIndexList = getDailyIndexList,
+            daysList = daysList,
+            hourlyList = hourlyList
+        )
     }
 }

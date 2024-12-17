@@ -108,3 +108,17 @@ data class location(
     val lat:String,
     val lon:String
 )
+
+data class DailyIndex(
+    @SerializedName("category")
+    val category: String,
+    @SerializedName("date")
+    val date: String,
+    @SerializedName("name")
+    val name: String,
+    @SerializedName("text")
+    val text: String,
+    @SerializedName("type")
+    val level: String,
+    val type: String
+)

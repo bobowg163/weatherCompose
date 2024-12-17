@@ -18,6 +18,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.weathercompose.data.DailyIndex
 import com.example.weathercompose.data.daily
 import com.example.weathercompose.data.hourly
 import com.example.weathercompose.ui.theme.BlueLight
@@ -113,8 +114,57 @@ fun DailyItem(item: daily) {
                 style = TextStyle(fontSize = 20.sp)
             )
             Column {
-                WeatherSelectIcon( icon = item.iconDay)
+                WeatherSelectIcon(icon = item.iconDay)
                 WeatherSelectIcon(icon = item.iconNight)
+            }
+
+        }
+    }
+}
+
+
+@Composable
+fun getDailyIndexItem(item: DailyIndex) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(top = 3.dp),
+        colors = CardDefaults.cardColors(containerColor = BlueLight),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp),
+        shape = RoundedCornerShape(5.dp)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Column(
+                modifier = Modifier
+                    .padding(start = 8.dp, top = 5.dp, bottom = 5.dp)
+                    .size(height = 168.dp, width = 190.dp),
+                horizontalAlignment = Alignment.Start,
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text(text = item.text, color = Color.White, fontSize = 15.sp)
+                Text(
+                    text = "白天:${item.type}",
+                    color = Color.White,
+                    fontSize = 15.sp,
+                    overflow = TextOverflow.Ellipsis
+                )
+                Text(
+                    text = "日出：${item.date} 日落：${item.name}",
+                    color = Color.White,
+                    fontSize = 15.sp,
+                    overflow = TextOverflow.Ellipsis
+                )
+
+                Text(
+                    text = "月升：${item.level} 月落：${item.category}",
+                    color = Color.White,
+                    fontSize = 15.sp,
+                    overflow = TextOverflow.Ellipsis
+                )
             }
 
         }

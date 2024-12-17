@@ -231,3 +231,58 @@ fun getWeatherByCity(response: String): location {
     }
     return list[0]
 }
+
+fun getWeatherIndex(
+    context: Context,
+    daysList: MutableState<List<DailyIndex>>,
+    id: String = "101310218"
+) {
+    if (id == "Unknown location") {
+        val url =
+            "https://devapi.qweather.com/v7/indices/1d?type=1,2&location=101010100&key=$API_KEY"
+        val queue = Volley.newRequestQueue(context)
+        val sRequest = StringRequest(Request.Method.GET, url, { response ->
+            val list = getDailyIndex(response)
+            daysList.value = list
+        }, {
+            Log.d("mylog", "VolleyError:$it")
+        })
+        queue.add(sRequest)
+    } else {
+        val url = "https://devapi.qweather.com/v7/weather/7d?location=${id}" + "&key=$API_KEY"
+        val queue = Volley.newRequestQueue(context)
+        val sRequest = StringRequest(Request.Method.GET, url, { response ->
+            val list = getDailyIndex(response)
+            daysList.value = list
+        }, {
+            Log.d("mylog", "VolleyError:$it")
+        })
+        queue.add(sRequest)
+    }
+
+
+}
+
+fun getDailyIndex(response: String): List<DailyIndex> {
+    if (response.isEmpty()) {
+        return listOf()
+    } else {
+        val list = ArrayList<DailyIndex>()
+        val mainObject = JSONObject(response)
+        val dailyIndex = mainObject.getJSONArray("daily")
+        for (i in 0 until dailyIndex.length()) {
+            val item = dailyIndex[i] as JSONObject
+            list.add(
+                DailyIndex(
+                    date = item.getString("date"),
+                    type = item.getString("type"),
+                    name = item.getString("name"),
+                    level = item.getString("level"),
+                    category = item.getString("category"),
+                    text = item.getString("text")
+                )
+            )
+        }
+        return list
+    }
+}
