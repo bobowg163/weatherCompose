@@ -214,7 +214,7 @@ fun TabLayout(
     daysList: MutableState<List<daily>>,
     hourlyList: MutableState<List<hourly>>,
 ) {
-    val tabList = listOf( "24小时", "7天","天气指数")
+    val tabList = listOf("天气指数", "24小时", "7天")
     val pageState = rememberPagerState()
     val tabIndex = pageState.currentPage
     val coroutineScope = rememberCoroutineScope()
@@ -256,6 +256,16 @@ fun TabLayout(
                 0 -> {
                     LazyColumn(modifier = Modifier.fillMaxSize()) {
                         itemsIndexed(
+                            getDailyIndexList.value
+                        ) { _, item ->
+                            GetDailyIndexItem(item)
+                        }
+                    }
+                }
+
+                1 -> {
+                    LazyColumn(modifier = Modifier.fillMaxSize()) {
+                        itemsIndexed(
                             hourlyList.value
                         ) { _, item ->
                             HorlyList(item)
@@ -263,7 +273,7 @@ fun TabLayout(
                     }
                 }
 
-                1 -> {
+                2 -> {
                     LazyColumn(modifier = Modifier.fillMaxSize()) {
                         itemsIndexed(
                             daysList.value
@@ -273,15 +283,6 @@ fun TabLayout(
                     }
                 }
 
-                2 -> {
-                    LazyColumn(modifier = Modifier.fillMaxSize()) {
-                        itemsIndexed(
-                            getDailyIndexList.value
-                        ) { _, item ->
-                            getDailyIndexItem(item)
-                        }
-                    }
-                }
 
                 else -> {
                     LazyColumn(modifier = Modifier.fillMaxSize()) {

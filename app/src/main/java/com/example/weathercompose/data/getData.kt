@@ -249,7 +249,7 @@ fun getWeatherIndex(
         })
         queue.add(sRequest)
     } else {
-        val url = "https://devapi.qweather.com/v7/weather/7d?location=${id}" + "&key=$API_KEY"
+        val url = "https://devapi.qweather.com/v7/indices/1d?type=1,2&location=${id}" + "&key=$API_KEY"
         val queue = Volley.newRequestQueue(context)
         val sRequest = StringRequest(Request.Method.GET, url, { response ->
             val list = getDailyIndex(response)

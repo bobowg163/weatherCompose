@@ -118,7 +118,8 @@ data class DailyIndex(
     val name: String,
     @SerializedName("text")
     val text: String,
-    @SerializedName("type")
+    @SerializedName("level")
     val level: String,
+    @SerializedName("type")
     val type: String
 )

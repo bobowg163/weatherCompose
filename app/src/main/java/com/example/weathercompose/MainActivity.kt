@@ -106,10 +106,12 @@ class MainActivity : ComponentActivity() {
                         get7DaysData(
                             context = this, daysList = daysList, id = citylist.value.id
                         )
+                        getWeatherIndex(this, weatherIndex, citylist.value.id)
                     } else {
                         get24HourlyData(this, hourlyList)
                         get7DaysData(this, daysList)
                         getNowData(context = this, now = nowList)
+                        getWeatherIndex(this, weatherIndex)
                     }
                 }
                 Image(
